@@ -16,11 +16,6 @@ let min a b =
 min 3 4;;
 min 7 4;;
 
-
-printf "%d" ((fun x -> x + 2) 5);;
-
-printf "%d" ((fun x -> x + 2) 10);;
-
 let f x = 2 * x ;;
 let f x = 2 * x + 1;;
 
