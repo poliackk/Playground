@@ -55,7 +55,7 @@ let rec cifre_to_list_inv n =
   if n <= 9 then [n]
   else (n mod 10) :: cifre_to_list_inv (n/10);;
 
-cifre_to_list_inv 12345;;
+cifre_to_list_inv 123;;
 
 (* scrieti o functie care primeste ca parametru un numar n si returneaza
 lista cifrelor numarului n*)
