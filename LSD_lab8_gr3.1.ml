@@ -55,7 +55,7 @@ print_bt bt1;;
 
 let rec print_bt_inorder = function
   |Nil -> ();
-  |BT(left,root,right) ->  print_bt left; printf "%d " root; print_bt right;;
+  |BT(left,root,right) ->  print_bt_inorder left; printf "%d " root; print_bt_inorder right;;
 
 
 print_bt_inorder bt1;;
@@ -64,7 +64,7 @@ print_bt_inorder bt1;;
 
 let rec print_bt_postorder = function
   |Nil -> ();
-  |BT(left,root,right) ->  print_bt left; print_bt right; printf "%d " root;;
+  |BT(left,root,right) ->  print_bt_postorder left; print_bt_postorder right; printf "%d " root;;
 
 
 print_bt_postorder bt1;;
