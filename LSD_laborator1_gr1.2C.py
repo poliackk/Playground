@@ -136,3 +136,13 @@ if __name__ == '__main__':
     print(minim)
     
     # TEMA: ex 9 si 10
+    
+    '''
+    Exercițiul 9: Cerc
+Implementați o funcție în Python care primește ca parametru raza unui cerc și returnează atât lungimea discului cât și aria acestuia.
+
+Exercițiul 10: Numărul de zile
+Implementați o funcție în Python care primește ca parametri doi ani (numere întregi) și returnează numărul de zile dintre aceștia (Puteți utiliza funcția implementată la exercițiul 4).
+Nota: Nu este permisa utilizarea modulului datetime sau a oricărui alt modul similar.
+
+'''
