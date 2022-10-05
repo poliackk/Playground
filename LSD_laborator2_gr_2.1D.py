@@ -80,7 +80,7 @@ print(f(g(1)))
 
 
 def comp(f, g):
-    lambda x: f(g(x))
+    return lambda x: f(g(x))
 
 
 fg = comp(f, g)
