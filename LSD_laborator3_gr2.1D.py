@@ -84,7 +84,12 @@ print("fibo(5) = " + str(fibbo(5)))
 Exercițiul 3: Suma primelor N numere naturale
 Implementați în Python o funcție recursivă pentru a calcula suma primelor N  numere naturale.
 '''
+    if n == 0:
+        return 0
+    else:
+        return n + suma(n-1)
 
+print("suma(9) = "+str(suma(9)))
 def suma_nr_naturale(n):
     
 
